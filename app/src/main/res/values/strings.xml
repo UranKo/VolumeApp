@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VolumeApp</string>
+    <string name="set_lines">Set Lines</string>
+    <string name="set_volume">Set Volume</string>
+</resources>
