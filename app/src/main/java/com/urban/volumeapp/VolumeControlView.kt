@@ -85,7 +85,7 @@ class VolumeControlView(context: Context, attrs: AttributeSet) : View(context, a
             else
                 paint.color = Color.GRAY
 
-            canvas.drawLine((viewWidth * mBarWidth).toFloat(), (i * cellHeight).toFloat(), (viewWidth * (1-mBarWidth)).toFloat(), ((i * cellHeight)).toFloat(), paint);
+            canvas.drawLine((viewWidth * mBarWidth).toFloat(), (i * cellHeight).toFloat(), (viewWidth * (1-mBarWidth)).toFloat(), ((i * cellHeight)).toFloat(), paint)
         }
 
         paint.color = Color.GRAY
